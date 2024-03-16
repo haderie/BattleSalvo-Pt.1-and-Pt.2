@@ -5,7 +5,7 @@
 ## Program Input, 2 Parts:
 
 1. In order to play against the AI, the program needs to be run with no command line inputs.
-2. In order to play againt a server, the program needs to be run with a port number.
+2. In order to play your AI against another users, the program needs to be run with a port number.
 
 
 ## Ship Placement
@@ -20,6 +20,17 @@ Once the AI has generated all ship placements, the user should be presented:
 <img width="684" alt="Captura de pantalla 2024-03-16 a la(s) 12 18 53 a m" src="https://github.com/haderie/BattleSalvo-Pt.1-and-Pt.2/assets/126923741/320aebd1-5039-49f4-b631-26c4baf37115">
 
 <img width="410" alt="Captura de pantalla 2024-03-16 a la(s) 12 19 05 a m" src="https://github.com/haderie/BattleSalvo-Pt.1-and-Pt.2/assets/126923741/5de4383e-0ff0-4aa8-a52a-07cb18813e0b">
+
+### Repeat
+
+This “Salvo Stage” will continue until either:
+
+1. all of the AI’s ships have been sunk, or
+2. all of user’s ships have been sunk
+
+### Game End
+
+When the game ends, your program should display to the user whether they have won, lost, or tied. After displaying that, the program should exit — without requiring any additional input from the user.
 
 This includes several additional tools:
 1. Gradle Build Automation
